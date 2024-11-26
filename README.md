@@ -81,3 +81,11 @@ examples/: Exemplos de como usar o framework. Este diretório serve para fornece
 requirements.txt: Arquivo de dependências. Você pode começar com as bibliotecas necessárias para o framework. Por exemplo, asyncio, jinja2 (se você for usar templates HTML), etc.
 
 setup.py: Script que permitirá instalar o framework como um pacote Python.
+
+```
+
+# Versão do Python
+
+```bash 
+^3.12
+````
