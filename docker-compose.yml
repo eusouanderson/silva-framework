@@ -1,0 +1,14 @@
+services:
+  silva-framework:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: silva-framework
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./silva-framework:/app
+    working_dir: /app  
+    command: >
+      bash -c "pip install --no-cache-dir -r requirements.txt &&
+               python -m silva.core.app"

@@ -5,5 +5,11 @@ class SilvaRouter:
     def add_route(self, path, handler):
         self.routes[path] = handler
 
-    def get_handler(self, path):
+    def get(self, path):
         return self.routes.get(path, None)
+ 
+
+
+
+
+

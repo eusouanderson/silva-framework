@@ -81,3 +81,8 @@ requirements.txt: Dependency file. You can start with the libraries needed for t
 setup.py: Script that allows you to install the framework as a Python package.
 ```
 
+# Python Version
+
+```bash 
+^3.12
+````
