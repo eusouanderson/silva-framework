@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "silva-framework"
+version = "0.1.0"
+description = "Silva Framework é um projeto 100% brasileiro que nasceu da necessidade de simplificar o desenvolvimento web em Python."
+authors = ["Anderson Rodrigues <eusouanderson@outlook.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+websockets = "^14.1"
+jinja2 = "^3.1.4"
+pytest = "^8.3.3"
+requests = "^2.32.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

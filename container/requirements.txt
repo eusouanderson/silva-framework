@@ -1,0 +1,4 @@
+websockets
+jinja2
+pytest
+requests
